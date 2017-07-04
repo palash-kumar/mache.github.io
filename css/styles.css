@@ -215,6 +215,11 @@ h3{
     .o_s .thumbnail img{
         background: transparent;
         margin: 0 auto 10px auto;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s ;
     }
     .o_s .thumbnail:hover img{
         background-color: #ed145b;
@@ -318,16 +323,23 @@ h3{
         background-color: #5a5a5a;
         padding: 30px;
         color: white;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s ;
     }
     .price p, .price h2{
         color: white;
     }
-    .price:hover{
-        /*background-color: #ED145B;*/
+    .price:hover {
+        /*background-color: #F9B5CC;*/
     }
-    .prizes .thumbnail:hover .price{
+    .prizes .thumbnail:hover .price, button{
         background-color: #ED145B;
+
     }
+
     .thumbnail{
         text-align: center;
     }
@@ -409,8 +421,9 @@ h3{
         color: #ED145B;
     }
     .joinus button:hover{
-        background-color: #ED145B ;
+        background-color: #F9B5CC ;
         color: white ;
+        boder: 2px solid black;
     }
 /* Join Us END */
 
