@@ -376,6 +376,14 @@ h3{
     .a_i .elements{
         margin: 10px 0px;
     }
+    .a_i img{
+
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+    }
     .a_i h5{
         color: #ED145B;
     }
@@ -383,9 +391,8 @@ h3{
         color: #686868;
         font-size: 13px;
     }
-    .elements:hover img, .elements:hover h5{
+    .elements:hover img{
         background-color: #ED145B;
-        color: white;
         border-radius: 10px;
     }
     .elements:hover h5{
